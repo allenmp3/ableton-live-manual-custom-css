@@ -70,16 +70,22 @@
         color: black !important;
       }
 
-      /* Table of contents dividers */
-      .toc-list-nested > ol > li + li {
+      /* Sidebar and table dividers */
+      .toc-list-nested > ol > li + li,
+      .body-text--manual table
+      {
         border-top-color: #464646;
+      }
+
+      .body-text table tr td {
+        border-bottom-color: #464646;
       }
 
       /* Background for transparent images */
       .body-text--manual figure img {
         background-color: #d6d7db;
       }
-      
+
       /* Keyboard shortcuts */
       .body-text kbd {
         color: #ccc;
@@ -124,9 +130,15 @@
       color: black !important;
     }
 
-    /* Table of contents dividers */
-    .toc-list-nested > ol > li + li {
+    /* Sidebar and table dividers */
+    .toc-list-nested > ol > li + li,
+    .body-text--manual table
+    {
       border-top-color: #464646;
+    }
+    
+    .body-text table tr td {
+      border-bottom-color: #464646;
     }
 
     /* Background for transparent images */
