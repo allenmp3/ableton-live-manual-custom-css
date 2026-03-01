@@ -45,6 +45,11 @@
         color-scheme: dark;
       }
 
+      ::selection {
+        background-color: #008491; /* Background color of the selection */
+        color: white; /* Text color of the selection */
+      }
+
       /* Background and body text colors */
       main,
       body,
@@ -103,6 +108,11 @@
     /* Dark theme */
     :root {
       color-scheme: dark;
+    }
+    
+    ::selection {
+      background-color: #008491; /* Background color of the selection */
+      color: white; /* Text color of the selection */
     }
     
     /* Background and body text colors */
