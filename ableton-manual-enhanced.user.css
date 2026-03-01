@@ -51,4 +51,9 @@
   .toc-list-nested > ol > li + li {
     border-top-color: #464646;
   }
+  
+  /* Background for transparent images */
+  .body-text--manual figure img {
+    background-color: #d6d7db;
+  }
 }
