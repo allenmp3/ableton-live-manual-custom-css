@@ -1,58 +1,115 @@
 /* ==UserStyle==
 @name           Ableton Live Reference Manual - Enhanced
-@author         allenmp3 (https://github.com/allenmp3)
-@description    Improves the online Ableton Live Reference Manual with a fixed, scrollable table of contents and a dark theme.
 @namespace      https://github.com/allenmp3/ableton-live-manual-custom-css
 @homepageURL    https://github.com/allenmp3/ableton-live-manual-custom-css
-@license        MIT
 @version        1.0.0
+@description    Improves the online Ableton Live Reference Manual with a fixed, table of contents and an optional dark theme.
+@author         allenmp3 (https://github.com/allenmp3)
+
+@preprocessor stylus
+@var  checkbox fixSidebarEnable "Use fixed sidebar (table of contents)" 1
+@var  checkbox headFootDisable "Hide header and footer" 1
+@var  checkbox followSysThemeEnable "Follow system light/dark theme" 1
+@var  checkbox darkThemeEnable "Always use dark theme" 0
 ==/UserStyle== */
 
 @-moz-document url-prefix("https://www.ableton.com/en/live-manual") {
-  /* Fixed sidebar */
-  #sidebar {
-    position: -webkit-sticky;
-    position: sticky;
-    top: 0;
-    height: 100vh;
-    overflow-y: scroll;
-    padding-top: 12px;
-  }
-
-  /* Dark theme */
-  main,
-  body,
-  .main-footer__separator {
-    background-color: #363636;
-  }
-
-  a .section-number,
-  .body-text a
-  {
-    color: #04c3d5;
-    /* color: #ffad56; */
-  }
-
-  .abl-button--primary, .abl-prose .abl-button--primary {
-    background-color: #04c3d5;
-  }
-
-  .button {
-    color: black !important;
-  }
-
-  .body-text,
-  .toc-list-nested .active > a,
-  .toc-list-nested .active > a .section-number   {
-    color: #b5b5b5;
-  }
-
-  .toc-list-nested > ol > li + li {
-    border-top-color: #464646;
+  if fixSidebarEnable {
+    /* Fixed sidebar */
+    #sidebar {
+      position: -webkit-sticky;
+      position: sticky;
+      top: 0;
+      height: 100vh;
+      overflow-y: scroll;
+      padding-top: 12px;
+    }
   }
   
-  /* Background for transparent images */
-  .body-text--manual figure img {
-    background-color: #d6d7db;
+  if headFootDisable {
+    header,
+    .main-footer__container {
+      display: none !important;
+    }
+  }
+  
+  if followSysThemeEnable {
+    @media (prefers-color-scheme: dark) {
+      /* Dark theme */
+      main,
+      body,
+      .main-footer__separator {
+        background-color: #363636;
+      }
+
+      a .section-number,
+      .body-text a
+      {
+        color: #04c3d5;
+        /* color: #ffad56; */
+      }
+
+      .abl-button--primary, .abl-prose .abl-button--primary {
+        background-color: #04c3d5;
+      }
+
+      .button {
+        color: black !important;
+      }
+
+      .body-text,
+      .toc-list-nested .active > a,
+      .toc-list-nested .active > a .section-number   {
+        color: #b5b5b5;
+      }
+
+      .toc-list-nested > ol > li + li {
+        border-top-color: #464646;
+      }
+
+      /* Background for transparent images */
+      .body-text--manual figure img {
+        background-color: #d6d7db;
+      }
+    }
+  }
+  
+  if darkThemeEnable {
+    /* Dark theme */
+    main,
+    body,
+    .main-footer__separator {
+      background-color: #363636;
+    }
+
+    a .section-number,
+    .body-text a
+    {
+      color: #04c3d5;
+      /* color: #ffad56; */
+    }
+
+    .abl-button--primary, .abl-prose .abl-button--primary {
+      background-color: #04c3d5;
+    }
+
+    .button {
+      color: black !important;
+    }
+
+    .body-text,
+    .toc-list-nested .active > a,
+    .toc-list-nested .active > a .section-number   {
+      color: #b5b5b5;
+    }
+
+    .toc-list-nested > ol > li + li {
+      border-top-color: #464646;
+    }
+
+    /* Background for transparent images */
+    .body-text--manual figure img {
+      background-color: #d6d7db;
+    }
   }
 }
