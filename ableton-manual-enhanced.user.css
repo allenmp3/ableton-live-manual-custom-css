@@ -13,7 +13,7 @@
 @var  checkbox darkThemeEnable "Always use dark theme" 0
 ==/UserStyle== */
 
-@-moz-document url-prefix("https://www.ableton.com/en/live-manual") {
+@-moz-document url-prefix("https://www.ableton.com/en/live-manual"), url-prefix("https://www.ableton.com/en/manual") {
   if fixSidebarEnable {
     /* Fixed sidebar */
     #sidebar {
