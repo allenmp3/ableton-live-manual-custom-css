@@ -17,11 +17,12 @@ Link to the manual: [Ableton Live Reference Manual](https://www.ableton.com/en/l
 
 ## Configuring theme options
 
-To adjust theme options, click the Stylus extension button in your browser's toolbar.
+To adjust theme options, click the Stylus extension button in your browser's toolbar:
+
 ![Gear icon to go to theme options](./images/options-1.png)
 
-Then, click the gear icon next to the theme:
+Click the gear icon next to the theme to see the options:
 
 ![Gear icon to go to theme options](./images/options-2.png)
 
-Click Save after adjusting options.
+Click _Save_ after adjusting options.
