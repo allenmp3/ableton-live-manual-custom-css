@@ -3,7 +3,7 @@
 @namespace      https://github.com/allenmp3/ableton-live-manual-custom-css
 @homepageURL    https://github.com/allenmp3/ableton-live-manual-custom-css
 @version        1.0.0
-@description    Improves the online Ableton Live Reference Manual with a fixed, table of contents and an optional dark theme.
+@description    Improves the online Ableton Live Reference Manual with a fixed, scrollable table of contents and an optional dark theme.
 @author         allenmp3 (https://github.com/allenmp3)
 
 @preprocessor stylus
@@ -36,6 +36,10 @@
   if followSysThemeEnable {
     @media (prefers-color-scheme: dark) {
       /* Dark theme */
+      :root {
+        color-scheme: dark;
+      }
+      
       main,
       body,
       .main-footer__separator {
@@ -76,6 +80,10 @@
   
   if darkThemeEnable {
     /* Dark theme */
+    :root {
+      color-scheme: dark;
+    }
+    
     main,
     body,
     .main-footer__separator {
