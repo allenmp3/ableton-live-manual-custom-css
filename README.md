@@ -15,7 +15,7 @@ Custom style for the online version of Ableton Live's user manual, including a f
 Link to the manual: [Ableton Live Reference Manual](https://www.ableton.com/en/live-manual/12/)
 
 
-# Configuring theme options
+## Configuring theme options
 
 To adjust theme options, click the Stylus extension button in your browser's toolbar.
 ![Gear icon to go to theme options](./images/options-1.png)
