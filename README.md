@@ -1,6 +1,6 @@
-# Ableton Live Reference Manual Enhanced CSS
+# Ableton Live Reference Manual Enhanced Theme
 
-Custom style for the online version of Ableton Live's user manual, including a fixed table of contents and dark theme.
+Custom style for the online version of [Ableton Live's user manual](https://www.ableton.com/en/live-manual/12/), including a fixed table of contents and dark theme.
 
 ![Ableton Live Reference Manual Enhanced CSS](./images/preview.png)
 
