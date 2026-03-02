@@ -16,7 +16,9 @@ Link to the manual: [Ableton Live Reference Manual](https://www.ableton.com/en/l
 
 ## Updating the theme
 
-The theme should automatically update if you have the "Check for updates" option enabled in the "Edit Style" window for the theme. 
+The theme should automatically update if you have the "Check for updates" option enabled in the "Edit Style" window for the theme.:
+
+<img src="./images/check-for-updates.png" width="400" alt="Option to check for updates in theme's Edit Style window">
 
 You can also manually update (i.e., reinstall) the theme at any time by clicking the ”Install directly with Stylus” badge:
 
