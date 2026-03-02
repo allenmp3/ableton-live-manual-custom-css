@@ -1,6 +1,6 @@
 # Ableton Live Reference Manual Enhanced Theme
 
-Custom style for the online version of [Ableton Live’s user manual](https://www.ableton.com/en/live-manual/12/), including a fixed table of contents and optional dark theme.
+Custom style for the online versions of Ableton’s user manuals for [Live](https://www.ableton.com/en/live-manual/12/), [Push](https://www.ableton.com/en/push/manual/), [Move](https://www.ableton.com/en/move/manual/) and [Note](https://www.ableton.com/en/note/manual/). Options include a fixed/sticky table of contents sidebar, dark theme, and hiding the website’s header and footer.
 
 ![Ableton Live Reference Manual Enhanced CSS](./images/preview.png)
 
@@ -12,7 +12,9 @@ Custom style for the online version of [Ableton Live’s user manual](https://ww
 [![Install directly with Stylus](https://img.shields.io/badge/Install%20directly%20with-Stylus-00adad.svg)](https://raw.githubusercontent.com/allenmp3/ableton-live-manual-enhanced-css/refs/heads/main/ableton-manual-enhanced.user.css)
 </div>
 
-Link to the manual: [Ableton Live Reference Manual](https://www.ableton.com/en/live-manual/12/)
+Link to the manuals: 
+[Ableton Live manual](https://www.ableton.com/en/live-manual/12/) • [Ableton Push 3 manual](https://www.ableton.com/en/push/manual/) • [Ableton Move manual](https://www.ableton.com/en/move/manual/)
+ • [Ableton Note manual](https://www.ableton.com/en/note/manual/)
 
 ## Updating the theme
 
@@ -37,3 +39,18 @@ Click the gear icon next to the theme to see the options:
 <img src="./images/options-2.png" width="400" alt="Screenshot of theme options">
 
 Click _Save_ after adjusting options.
+
+
+
+
+* Extension now enabled on [Push](https://www.ableton.com/en/push/manual/), [Move](https://www.ableton.com/en/move/manual/) and [Note](https://www.ableton.com/en/note/manual/) manuals.
+* All languages supported. As of 2026-03-02, these are: 
+  * `en` (English) — Live, Push, Move, Note
+  * `de` (Deutsch) — Push, Move, Note
+  * `fr` (français) — Push, Move, Note
+  * `ja` (日本語) — Push, Move, Note
+  * `zh-cn` (简体中文) — Push, Move, Note
+  * `es` (español) — Push, Move
+  * `it` (italiano) — Push, Move
+* Improved wording for the fixed sidebar navigation option.
+* Unnecessary CSS files removed from repository.
