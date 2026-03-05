@@ -5,7 +5,7 @@
 @namespace      https://github.com/allenmp3/ableton-live-manual-custom-css
 @homepageURL    https://github.com/allenmp3/ableton-live-manual-custom-css
 @license        MIT
-@version        1.1.0
+@version        1.1.1
 
 @preprocessor stylus
 @var  checkbox fixSidebarEnable "Enable fixed/sticky sidebar navigation" 1
