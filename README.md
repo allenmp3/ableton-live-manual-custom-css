@@ -2,7 +2,7 @@
 
 Custom style for the online versions of Ableton’s user manuals for [Live](https://www.ableton.com/en/live-manual/12/), [Push](https://www.ableton.com/en/push/manual/), [Move](https://www.ableton.com/en/move/manual/) and [Note](https://www.ableton.com/en/note/manual/). Options include a fixed/sticky table of contents sidebar, dark theme, and hiding the website’s header and footer.
 
-![Ableton Live Reference Manual Enhanced CSS](./images/preview.png)
+![Ableton Live Reference Manual Enhanced CSS](./images/preview-with-browser.png)
 
 # How to use
 
