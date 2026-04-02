@@ -1,4 +1,4 @@
-# Ableton Live Reference Manual Enhanced Theme
+# Ableton Reference Manual Enhanced Theme
 
 Custom style for the online versions of Ableton’s user manuals for [Live](https://www.ableton.com/en/live-manual/12/), [Push](https://www.ableton.com/en/push/manual/), [Move](https://www.ableton.com/en/move/manual/) and [Note](https://www.ableton.com/en/note/manual/). Options include a fixed/sticky table of contents sidebar, dark theme, and hiding the website’s header and footer.
 
