@@ -4,6 +4,8 @@ Custom style for the online versions of Ableton’s user manuals for [Live](http
 
 ![Ableton Live Reference Manual Enhanced CSS](./images/preview-with-browser.png)
 
+You can find the theme on UserStyles [here](https://userstyles.world/style/26849/ableton-live-reference-manual-enhanced).
+
 # How to use
 
 1. Install the Stylus browser extension for [Chrome/Chromium-based browsers](https://chromewebstore.google.com/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne?pli=1) or [Firefox](https://addons.mozilla.org/en-US/firefox/addon/styl-us/).
